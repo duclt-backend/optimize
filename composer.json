@@ -1,0 +1,26 @@
+{
+  "name": "core-packages/optimize",
+  "description": "Optimize page speed package",
+  "type": "package",
+  "autoload": {
+    "psr-4": {
+      "Workable\\Optimize\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "duclt3005",
+      "email": "duclt3005@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^6.0|^7.0|^8.0"
+  },
+  "extra":{
+    "laravel":{
+      "providers":[
+        "Workable\\Optimize\\Providers\\OptimizeServiceProvider"
+      ]
+    }
+  }
+}
